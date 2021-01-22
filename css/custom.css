@@ -15,10 +15,13 @@ p {
 	color: #263547;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
 
 .jumbotron {
 	text-align: center;
-	background-image: url("wallpaper.jpeg");
+	background-image: url("background.jpeg");
 	background-size: cover;
 	background-position: center 35%;
 	color: white;
@@ -44,6 +47,47 @@ p {
 	color: #263547;
 	background-color: white;
 	border-color: #263547;
+}
+
+.navbar-inverse {
+	background: #263547;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: white;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: white;
+	color: #263547;
+}
+
+.dropdown-menu {
+	color: white;
+	background: #263547;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: white;
+}
+
+
+.navbar img {
+	display: inline;
+	height: auto;
+	min-width: 40px;
+	width: 2%; 
+	margin-bottom: auto;
+	margin-top: -10px;
+	position: absolute;
+}
+
+
+.navbar-brand {
+	color: white;
+	font-weight: bold;
 }
 
 .fa {
@@ -115,30 +159,30 @@ hr {
 }
 
 
-.experiences-post p {
+.blog-post p {
 	text-align: left;
 	font-size: 16px;
 }
 
-.experiences-post h3 {
+.blog-post h3 {
 	font-weight: bold;
 }
 
-.experiences-post hr {
+.blog-post hr {
 	border-width: 1px;
 	border-color: #C3C3C3;
 }
 
-.experiences-post .inner hr {
+.blog-post .inner hr {
 	border-top: 5px dotted;
 	border-color: #C3C3C3; 
 	width: 5%
 }	
 
-.experiences-post ul {
+.blog-post ul {
 	font-size: 16px;
 }
 
-.experiences-date-stamp {
-    font-size: 13px !important;
+.blog-date-stamp {
+	font-size: 13px !important;
 }
