@@ -21,11 +21,11 @@ p {
 
 .jumbotron {
 	text-align: center;
-	background-image: url("background.jpeg");
+	background-image: url("background.jpg");
 	background-size: cover;
 	background-position: center 35%;
 	color: white;
-	margin-top: 50px;
+	margin-top: 0px;
 }
 .jumbotron p {
 	color: white;
